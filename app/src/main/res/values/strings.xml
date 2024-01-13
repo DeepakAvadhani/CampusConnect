@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CampusConnect</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="about_college">A college (Latin: collegium) is an educational institution or a constituent part of one. A college may be a degree-awarding tertiary educational institution, a part of a collegiate or federal university, an institution offering vocational education, or a secondary school.</string>
+    <string name="college_name">SGS College Bhatkal</string>
+    <string name="edit">Manage student marks here.</string>
+</resources>

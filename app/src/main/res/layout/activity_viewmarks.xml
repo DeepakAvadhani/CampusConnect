@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.UI.Profile.ViewMarks">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Subjects"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/Lightgray" />
+
+                <TextView
+                    android:id="@+id/subject1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="subject1"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/subject2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="subject2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/subject3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="subject3"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/subject4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="subject4"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/subject5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="subject5"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/subject6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="subject6"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/subject7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="subject7"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Marks"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/Lightgray" />
+
+                <TextView
+                    android:id="@+id/sub1marks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Marks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sub2marks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Marks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sub3marks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Marks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sub4marks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Marks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sub5marks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Marks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sub6marks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Marks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sub7marks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Marks"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Total Marks : " />
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="Marks" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Total Marks Obtained : " />
+
+                <TextView
+                    android:id="@+id/totalmarks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="Marks" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:text="Percentage : " />
+                <TextView
+                    android:id="@+id/percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="Marks" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.UI.Home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageslider"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:sliderAnimationDuration="1000"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#673AB7"
+                    app:sliderIndicatorUnselectedColor="#9C27B0"
+                    app:sliderScrollTimeInSec="2"
+                    app:sliderStartAutoCycle="true" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/latoregular"
+                android:text="About My College"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@font/latolight"
+                android:padding="5dp"
+                android:text="@string/about_college"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#822293"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="36dp"
+                        android:layout_marginRight="36dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginBottom="18dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/latoregular"
+                            android:text="Departments"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/title_size"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ffffff"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="8dp"
+                                    android:layout_marginHorizontal="@dimen/text_margin"
+                                    android:layout_marginTop="@dimen/text_margin"
+                                    android:text="Bachelor of Computer Application"
+                                    android:textSize="16sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/Lightgray" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="8dp"
+                                    android:layout_marginHorizontal="@dimen/text_margin"
+                                    android:layout_marginTop="@dimen/text_margin"
+                                    android:text="Bachelor of Business Administration"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="@dimen/text_margin"
+                android:clipToPadding="false"
+                android:foregroundGravity="center"
+                android:overScrollMode="never"
+                android:padding="5dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/latoregular"
+                    android:textStyle="bold"
+                    android:text="Contact Details"
+                    android:textSize="@dimen/title_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@font/latolight"
+                    android:padding="5dp"
+                    android:text="@string/college_name"
+                    android:textSize="@dimen/text_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/latolight"
+                    android:padding="5dp"
+                    android:text="Sagar Road, Bhatkal, Karnataka "
+                    android:textSize="@dimen/text_size" />
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:src="@drawable/mappy"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item
+        android:id="@+id/drawerebook"
+        android:icon="@drawable/ic_ebook"
+        android:title="Notes" />
+    <item
+        android:id="@+id/theme"
+        android:icon="@drawable/ic_theme"
+        android:title="Theme" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Share" />
+    </group>
+<item android:title=""/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"/>
+
+</menu>

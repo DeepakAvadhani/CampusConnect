@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.campusconnect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CampusConnect"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".User.Notes.CourseNotes.BCA.Sems.bcasem3"
+            android:exported="false"
+            android:parentActivityName=".User.Notes.CourseNotes.BCA.BCA" />
+        <activity
+            android:name=".User.Notes.CourseNotes.BCA.Sems.bcasemtwo"
+            android:exported="false"
+            android:parentActivityName=".User.Notes.CourseNotes.BCA.BCA" />
+        <activity
+            android:name=".User.Notes.CourseNotes.BBA.Sems.bbasemtwo"
+            android:exported="false"
+            android:parentActivityName=".User.Notes.CourseNotes.BBA.BBA" />
+        <activity
+            android:name=".User.Notes.CourseNotes.BBA.Sems.bbasemthree"
+            android:exported="false"
+            android:parentActivityName=".User.Notes.CourseNotes.BBA.BBA" />
+        <activity
+            android:name=".User.UI.Profile.DisplayMarks"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".admin.AddAdmin"
+            android:exported="false"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".User.Authentication.RegisterActivity"
+            android:exported="false"
+            android:parentActivityName=".User.Authentication.LoginActivity" />
+        <activity
+            android:name=".User.Authentication.AdminLogin"
+            android:exported="false"
+            android:parentActivityName=".User.Authentication.RegisterActivity" />
+        <activity
+            android:name=".User.Authentication.ForgotPassword"
+            android:exported="false"
+            android:parentActivityName=".User.Authentication.RegisterActivity" />
+        <activity
+            android:name=".User.Authentication.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.Marks.DeleteStudent"
+            android:exported="false"
+            android:parentActivityName=".admin.Marks.ManageMarks" />
+        <activity
+            android:name=".admin.Marks.AddStudent"
+            android:exported="false"
+            android:parentActivityName=".admin.Marks.ManageMarks" />
+        <activity
+            android:name=".admin.Marks.ManageMarks"
+            android:exported="false"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".User.Notes.PdfViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.Notes.CourseNotes.BCA.Sems.bcasemone"
+            android:exported="false"
+            android:parentActivityName=".User.Notes.CourseNotes.BCA.BCA" />
+        <activity
+            android:name=".User.Notes.CourseNotes.BBA.Sems.bbasemone"
+            android:exported="false"
+            android:parentActivityName=".User.Notes.CourseNotes.BBA.BBA" />
+        <activity
+            android:name=".User.Notes.CourseNotes.BCA.BCA"
+            android:exported="false" />
+        <activity
+            android:name=".User.Notes.CourseNotes.BBA.BBA"
+            android:exported="false" />
+        <activity
+            android:name=".User.Notes.NotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FullImageView"
+            android:exported="false" />
+        <activity
+            android:name=".admin.Notice.DeleteNotice"
+            android:exported="false"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".admin.Faculty.UpdateFacultyActivity"
+            android:exported="false"
+            android:parentActivityName=".admin.Faculty.UpdateFaculty" />
+        <activity
+            android:name=".admin.Faculty.AddLecturer"
+            android:exported="false"
+            android:parentActivityName=".admin.Faculty.UpdateFaculty" />
+        <activity
+            android:name=".admin.Faculty.UpdateFaculty"
+            android:exported="false"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".admin.UploadNotes"
+            android:exported="false"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".admin.UploadImage"
+            android:exported="false"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".admin.Notice.UploadNotice"
+            android:exported="false"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".admin.AdminMainActivity"
+            android:exported="false"
+            android:parentActivityName=".User.Authentication.LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+        </activity>
+    </application>
+
+</manifest>

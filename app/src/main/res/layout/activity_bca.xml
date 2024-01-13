@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".User.Notes.CourseNotes.BCA.BCA">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="@font/latoregular"
+        android:text="Select Semester"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/semone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1st SEM"
+        android:fontFamily="@font/nexabold"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/semtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2nd SEM"
+        android:fontFamily="@font/nexabold"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/semthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3rd SEM"
+        android:fontFamily="@font/nexabold"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+</LinearLayout>

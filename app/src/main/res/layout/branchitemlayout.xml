@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:id="@+id/branchicon"
+                android:src="@drawable/ic_bca" />
+
+            <TextView
+                android:id="@+id/branchtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/latobold"
+                android:text="Branch"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size"
+                android:layout_margin="@dimen/text_margin"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/branchdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:fontFamily="@font/latolight"
+            android:padding="5dp"
+            android:text="@string/about_college"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,100 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/buttonshape.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/circlecyan.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/circlegreen.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/circleorange.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/circlepink.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/circlepurple.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/circleyellow.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/coloryellow.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/constraintshape.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/edittextshape.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_addstudent.xml" value="0.1985" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_ba.xml" value="0.1225" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_bba.xml" value="0.1225" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_bca.xml" value="0.1225" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_bcom.xml" value="0.1225" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_deletestudent.xml" value="0.1985" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_ebook.xml" value="0.136" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_profileavatar.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/ic_update.xml" value="0.1985" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/roundedbottom.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/spinner_style.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/drawable/toolbarheader.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_add_admin.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_add_lecturer.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_add_student.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_admin_login.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_admin_main.xml" value="0.2" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_bba.xml" value="0.221875" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_bbasemone.xml" value="0.2203125" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_bbasemthree.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_bbasemtwo.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_bca.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_bcasem3.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_bcasemone.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_bcasemtwo.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_delete_notice.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_delete_student.xml" value="0.2" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_display_marks.xml" value="0.2359375" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_doneactivity.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_forgot_password.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_full_image_view.xml" value="0.2359375" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_manage_marks.xml" value="0.16" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_notes.xml" value="0.2359375" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_pdf_viewer.xml" value="0.2359375" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_register.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_splash_screen.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_update_faculty.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_update_facultydetails.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_update_facutly.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_upload_image.xml" value="0.18218623481781376" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_upload_notes.xml" value="0.264" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_upload_notice.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_user_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/activity_viewmarks.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/branchitemlayout.xml" value="0.264" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/drawerheader.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/ebookitemlayout.xml" value="0.2359375" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/fragment_admin_login_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/fragment_faculty.xml" value="0.1803921568627451" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/fragment_gallary.xml" value="0.1803921568627451" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/fragment_news.xml" value="0.2359375" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/fragment_register_tab.xml" value="0.2390625" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/fragment_register_user.xml" value="0.2" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/fragment_user_login_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/galleryimage.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/lecturerlayout.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/login_tab_fragment.xml" value="0.2390625" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/markslayout.xml" value="0.264" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/navgationheader.xml" value="0.1935897435897436" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/newsfeeditem.xml" value="0.264" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/nodatafound.xml" value="0.2" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/shimmerforebook.xml" value="0.2359375" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/slideritemlayout.xml" value="0.15925925925925927" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/spinnerdropdown.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/userlecturerlayout.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/layout/usernewsfeeditem.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/menu/bottomnavigation.xml" value="0.264" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/menu/navigationdrawer.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.158" />
+        <entry key="..\:/Users/Deepak Avadhani/Desktop/Test Subjects/CampusConnect/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.158" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

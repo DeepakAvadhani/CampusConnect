@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.Faculty.AddLecturer">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/toolbarheader" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New Lecturer"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nexaregular"
+            style="bold"
+            android:textSize="22sp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/addlecturerprofileimg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_profileavatar"
+            android:layout_gravity="center"
+            android:layout_marginRight="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="36dp" />
+
+        <TextView
+            android:id="@+id/clickhere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/latoregular"
+            android:text="Click here to Change Picture"
+            android:layout_marginBottom="20dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lecturername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Enter Name" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lectureremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lecturerpost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Post"
+            android:padding="16dp"
+            android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+        <AutoCompleteTextView
+            android:id="@+id/spinnerpost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:text="Select Department"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Add Lecturer"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="false"
+            android:id="@+id/addlecturerbtn" />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
