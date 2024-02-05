@@ -190,3 +190,4 @@ public class AddLecturer extends AppCompatActivity {
         }
     }
 }
+//hello its a demo project
