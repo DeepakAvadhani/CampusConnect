@@ -15,5 +15,5 @@ dependencyResolutionManagement {
         gradlePluginPortal()
     }
 }
-rootProject.name = "CampusConnec"
+rootProject.name = "CampusConnect"
 include ':app'
